@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Googler</string>
+    <string name="google_it">Google It!</string>
+    <string name="button">Go!</string>
+</resources>
