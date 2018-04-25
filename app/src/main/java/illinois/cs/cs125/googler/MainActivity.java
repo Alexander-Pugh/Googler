@@ -19,7 +19,15 @@ public class MainActivity extends AppCompatActivity {
     public void sendMessage(View view) {
         System.out.println("test 1123adsfea");
         Intent intent = new Intent(Intent.ACTION_VIEW);
-        String temp = "https://www.google.com/";
+        String temp = "https://pgl.yoyo.org/random/?window=new";
+        intent.setData(Uri.parse(temp));
+        startActivity(intent);
+    }
+
+    public void randomReddit(View view) {
+        //"\"https://old.reddit.com/r/random/\";"
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        String temp = "https://old.reddit.com/r/random/";
         intent.setData(Uri.parse(temp));
         startActivity(intent);
     }
