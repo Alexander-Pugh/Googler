@@ -33,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Capture" />
+        app:srcCompat="@drawable/capture" />
 
     <Button
         android:id="@+id/button2"
